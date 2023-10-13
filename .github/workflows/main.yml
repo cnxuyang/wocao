@@ -10,7 +10,7 @@ on:
 env:
   REGISTRY: ghcr.io
   OWNER: ${{ github.repository_owner }}
-  IMAGE_NAME: ${{ github.repository_owner }}/good
+  IMAGE_NAME: ${{ github.repository_owner }}/wocao
 
 jobs:
   build-and-publish:
